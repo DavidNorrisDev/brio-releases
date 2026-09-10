@@ -6,52 +6,51 @@
     <description>Updates for Brio, the macOS menu-bar developer toolbox.</description>
     <language>en</language>
     <item>
+      <title>0.9.0-beta.11</title>
+      <pubDate>Thu, 10 Sep 2026 09:18:07 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>202609100914</sparkle:version>
+      <sparkle:shortVersionString>0.9.0-beta.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>What changed since v0.9.0-beta.10</h4>
+<ul>
+<li>Give the total's rule one home and an oracle</li>
+<li>Close the scoped re-review's blockers on the fix wave</li>
+<li>Close the whole-branch gate's five must-fix findings</li>
+<li>Re-read every category after a delete, and stop claiming runtimes take their simulators</li>
+<li>Reclaim four more developer-disk categories in the Data tab</li>
+<li>Add Current status section to CLAUDE.md and drop duplicated Liquid Glass note</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/DavidNorrisDev/brio-releases/releases/download/v0.9.0-beta.11/Brio-0.9.0-beta.11.dmg" length="6120200" type="application/octet-stream" sparkle:edSignature="ilS9CID54p8E7SkdRU0KX2ClNqAjlZZKHJUGScXu+82G4J5I4e2C2QStuK2VTaX/fUKST5kTsjdHjE5lWflmBg==" />
+    </item>
+    <item>
       <title>0.9.0-beta.10</title>
       <pubDate>Fri, 07 Aug 2026 13:43:26 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:version>202608071338</sparkle:version>
       <sparkle:shortVersionString>0.9.0-beta.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h4>What changed since v0.9.0-beta.9</h4>
-<ul>
-<li>Match the nested-row gate's nil fallback to the toggle above it</li>
-<li>Document the Keep Awake menu toggle</li>
-<li>Add a screen-on toggle to the Keep Awake menu</li>
-<li>Cover the no-op display-sleep write while a session is active</li>
-<li>Let the controller own the screen-on setting outright</li>
-<li>Give KeepAwakeController the screen-on key</li>
-<li>Plan the Keep Awake menu toggle</li>
-<li>Complete the deletion list in the keep-awake menu spec</li>
-<li>Design a screen-on toggle for the Keep Awake menu</li>
-<li>Untrack the SDD scratch ledger</li>
-<li>Record the appcast hosting lesson</li>
-<li>Fix RELEASES_TOKEN docs for the single-repo appcast move</li>
-<li>Point the updater at the Pages-hosted appcast</li>
-<li>Publish the appcast to brio-releases instead of the site repo</li>
-<li>Validate the feed by text match rather than an XML parse</li>
-<li>Plan the appcast hosting move</li>
-<li>Design moving the Sparkle appcast off the Netlify site build</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/DavidNorrisDev/brio-releases/releases/download/v0.9.0-beta.10/Brio-0.9.0-beta.10.dmg" length="6079602" type="application/octet-stream" sparkle:edSignature="bY7oR3N/1jjbxNgACkYXuKHo7EdtUKX5yoIeCDQwjcp9/jT9SE8OKs41ZmFrD3zeo5lbmb4G2FigOFEbZi72BA==" />
-    </item>
-    <item>
-      <title>0.9.0-beta.9</title>
-      <pubDate>Fri, 07 Aug 2026 08:51:59 +0000</pubDate>
-      <sparkle:channel>beta</sparkle:channel>
-      <sparkle:version>202608070847</sparkle:version>
-      <sparkle:shortVersionString>0.9.0-beta.9</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description>&lt;h4&gt;What changed since v0.9.0-beta.8&lt;/h4&gt;
+      <description>&lt;h4&gt;What changed since v0.9.0-beta.9&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Size the Settings window to the taller Keep Awake tab&lt;/li&gt;
-&lt;li&gt;Attach each subtitle to its control instead of giving it a row&lt;/li&gt;
-&lt;li&gt;Document the Keep Awake settings grouping&lt;/li&gt;
-&lt;li&gt;Group the Keep Awake settings into three sections&lt;/li&gt;
-&lt;li&gt;Read the display settings positively without migrating them&lt;/li&gt;
-&lt;li&gt;Plan the Keep Awake settings UX pass&lt;/li&gt;
-&lt;li&gt;Design the Keep Awake settings UX pass&lt;/li&gt;
+&lt;li&gt;Match the nested-row gate's nil fallback to the toggle above it&lt;/li&gt;
+&lt;li&gt;Document the Keep Awake menu toggle&lt;/li&gt;
+&lt;li&gt;Add a screen-on toggle to the Keep Awake menu&lt;/li&gt;
+&lt;li&gt;Cover the no-op display-sleep write while a session is active&lt;/li&gt;
+&lt;li&gt;Let the controller own the screen-on setting outright&lt;/li&gt;
+&lt;li&gt;Give KeepAwakeController the screen-on key&lt;/li&gt;
+&lt;li&gt;Plan the Keep Awake menu toggle&lt;/li&gt;
+&lt;li&gt;Complete the deletion list in the keep-awake menu spec&lt;/li&gt;
+&lt;li&gt;Design a screen-on toggle for the Keep Awake menu&lt;/li&gt;
+&lt;li&gt;Untrack the SDD scratch ledger&lt;/li&gt;
+&lt;li&gt;Record the appcast hosting lesson&lt;/li&gt;
+&lt;li&gt;Fix RELEASES_TOKEN docs for the single-repo appcast move&lt;/li&gt;
+&lt;li&gt;Point the updater at the Pages-hosted appcast&lt;/li&gt;
+&lt;li&gt;Publish the appcast to brio-releases instead of the site repo&lt;/li&gt;
+&lt;li&gt;Validate the feed by text match rather than an XML parse&lt;/li&gt;
+&lt;li&gt;Plan the appcast hosting move&lt;/li&gt;
+&lt;li&gt;Design moving the Sparkle appcast off the Netlify site build&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <enclosure url="https://github.com/DavidNorrisDev/brio-releases/releases/download/v0.9.0-beta.9/Brio-0.9.0-beta.9.dmg" length="6078876" type="application/octet-stream" sparkle:edSignature="Zh0Z+XsGvujRC7Zz+xXg6BbMIUl6It6vINqs3InfntY77WCn01dIXfLKIX6y/chYNuVaIYCtVS+0BOidkNltBA==" />
+      <enclosure url="https://github.com/DavidNorrisDev/brio-releases/releases/download/v0.9.0-beta.10/Brio-0.9.0-beta.10.dmg" length="6079602" type="application/octet-stream" sparkle:edSignature="bY7oR3N/1jjbxNgACkYXuKHo7EdtUKX5yoIeCDQwjcp9/jT9SE8OKs41ZmFrD3zeo5lbmb4G2FigOFEbZi72BA==" />
     </item>
   </channel>
 </rss>
