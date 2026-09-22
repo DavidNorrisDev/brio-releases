@@ -6,48 +6,68 @@
     <description>Updates for Brio, the macOS menu-bar developer toolbox.</description>
     <language>en</language>
     <item>
+      <title>0.9.0-beta.13</title>
+      <pubDate>Tue, 22 Sep 2026 17:05:53 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>202609221703</sparkle:version>
+      <sparkle:shortVersionString>0.9.0-beta.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h4>What changed since v0.9.0-beta.12</h4>
+<ul>
+<li>Keep the rulings made while building the Data tab verdicts</li>
+<li>Record the Data tab verdicts in the feature map, status and open items</li>
+<li>Keep the unavailable-simulator test independent of the size ceiling</li>
+<li>Stop listing freshly erased simulators as reclaimable</li>
+<li>Capture self weakly once in the runtime download task</li>
+<li>Show deleted runtimes with Download and Forget</li>
+<li>Keep xcodebuild's last line when the download is refused</li>
+<li>Download a deleted runtime again with xcodebuild</li>
+<li>Write deleted runtimes only when the list changes</li>
+<li>Remember runtimes Brio deletes</li>
+<li>Show the bulk delete's failure toast before waiting for runtimes</li>
+<li>Wait for deleted runtimes to leave the list and report the space actually freed</li>
+<li>Show every irreversible delete button in red</li>
+<li>Show the bulk delete button in red</li>
+<li>Lift the confirmation alert above the panel</li>
+<li>Show each row's verdict and a Delete safe items button</li>
+<li>Delete only the Safe items the confirmation listed</li>
+<li>Add a Safe total and one delete for every Safe item</li>
+<li>Refuse the delete fallback for an id that isn't a UUID</li>
+<li>Delete a simulator simctl refuses by removing its folder first</li>
+<li>Attach a safety verdict to every Data tab item</li>
+<li>Add the Data tab's safety verdict rules</li>
+<li>Plan the Data tab verdicts and amend the spec's rules</li>
+<li>Add the Data tab verdicts, delete fallback and re-download spec</li>
+<li>Trim the status to the shipped state of beta.12</li>
+<li>Update the status for SF Symbols 27 and beta.12</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/DavidNorrisDev/brio-releases/releases/download/v0.9.0-beta.13/Brio-0.9.0-beta.13.dmg" length="6498632" type="application/octet-stream" sparkle:edSignature="cPOKwm1OjjoOyU0yqmeY9WB1W9VRBuzTBw4V7K1c4geQoHll2N3cTkHIPAVKWx83PrJQfKPDb7vcfL+Y6Bi8CA==" />
+    </item>
+    <item>
       <title>0.9.0-beta.12</title>
       <pubDate>Fri, 18 Sep 2026 10:54:10 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:version>202609181051</sparkle:version>
       <sparkle:shortVersionString>0.9.0-beta.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h4>What changed since v0.9.0-beta.11</h4>
-<ul>
-<li>Fit the symbol detail to the panel and default to Bounce</li>
-<li>Note the toast test's wall-clock race in the open items</li>
-<li>Record the symbol detail row's parked items</li>
-<li>Keep the symbol pickers honest and the typing rule testable</li>
-<li>Describe the symbol detail row in the feature map</li>
-<li>Open a symbol's detail under its line in the Symbols tab</li>
-<li>Select, move between and filter symbols by release and keyword</li>
-<li>Describe a symbol's modes, effects and code line for the detail row</li>
-<li>Correct the plan's release count to 25</li>
-<li>Carry each symbol's first release, layers and keywords</li>
-<li>Plan the symbol detail row in four tasks</li>
-<li>Spec the symbol detail that opens under its row</li>
-<li>Regenerate the symbol catalog for SF Symbols 27</li>
-<li>Record the parked list in docs/OPEN.md and update Current status</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/DavidNorrisDev/brio-releases/releases/download/v0.9.0-beta.12/Brio-0.9.0-beta.12.dmg" length="6350712" type="application/octet-stream" sparkle:edSignature="WDjW6ES3kqML6ShaN7d5OVq8Qb0jKElKBio1thjA6S9tP+slymQ+V0srjWe4hYDyRmbaHQZPNmHyPlr/8NpGBQ==" />
-    </item>
-    <item>
-      <title>0.9.0-beta.11</title>
-      <pubDate>Thu, 10 Sep 2026 09:18:07 +0000</pubDate>
-      <sparkle:channel>beta</sparkle:channel>
-      <sparkle:version>202609100914</sparkle:version>
-      <sparkle:shortVersionString>0.9.0-beta.11</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description>&lt;h4&gt;What changed since v0.9.0-beta.10&lt;/h4&gt;
+      <description>&lt;h4&gt;What changed since v0.9.0-beta.11&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Give the total's rule one home and an oracle&lt;/li&gt;
-&lt;li&gt;Close the scoped re-review's blockers on the fix wave&lt;/li&gt;
-&lt;li&gt;Close the whole-branch gate's five must-fix findings&lt;/li&gt;
-&lt;li&gt;Re-read every category after a delete, and stop claiming runtimes take their simulators&lt;/li&gt;
-&lt;li&gt;Reclaim four more developer-disk categories in the Data tab&lt;/li&gt;
-&lt;li&gt;Add Current status section to CLAUDE.md and drop duplicated Liquid Glass note&lt;/li&gt;
+&lt;li&gt;Fit the symbol detail to the panel and default to Bounce&lt;/li&gt;
+&lt;li&gt;Note the toast test's wall-clock race in the open items&lt;/li&gt;
+&lt;li&gt;Record the symbol detail row's parked items&lt;/li&gt;
+&lt;li&gt;Keep the symbol pickers honest and the typing rule testable&lt;/li&gt;
+&lt;li&gt;Describe the symbol detail row in the feature map&lt;/li&gt;
+&lt;li&gt;Open a symbol's detail under its line in the Symbols tab&lt;/li&gt;
+&lt;li&gt;Select, move between and filter symbols by release and keyword&lt;/li&gt;
+&lt;li&gt;Describe a symbol's modes, effects and code line for the detail row&lt;/li&gt;
+&lt;li&gt;Correct the plan's release count to 25&lt;/li&gt;
+&lt;li&gt;Carry each symbol's first release, layers and keywords&lt;/li&gt;
+&lt;li&gt;Plan the symbol detail row in four tasks&lt;/li&gt;
+&lt;li&gt;Spec the symbol detail that opens under its row&lt;/li&gt;
+&lt;li&gt;Regenerate the symbol catalog for SF Symbols 27&lt;/li&gt;
+&lt;li&gt;Record the parked list in docs/OPEN.md and update Current status&lt;/li&gt;
 &lt;/ul&gt;</description>
-      <enclosure url="https://github.com/DavidNorrisDev/brio-releases/releases/download/v0.9.0-beta.11/Brio-0.9.0-beta.11.dmg" length="6120200" type="application/octet-stream" sparkle:edSignature="ilS9CID54p8E7SkdRU0KX2ClNqAjlZZKHJUGScXu+82G4J5I4e2C2QStuK2VTaX/fUKST5kTsjdHjE5lWflmBg==" />
+      <enclosure url="https://github.com/DavidNorrisDev/brio-releases/releases/download/v0.9.0-beta.12/Brio-0.9.0-beta.12.dmg" length="6350712" type="application/octet-stream" sparkle:edSignature="WDjW6ES3kqML6ShaN7d5OVq8Qb0jKElKBio1thjA6S9tP+slymQ+V0srjWe4hYDyRmbaHQZPNmHyPlr/8NpGBQ==" />
     </item>
   </channel>
 </rss>
